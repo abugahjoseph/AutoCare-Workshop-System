@@ -27,7 +27,8 @@ def new_vehicle(customer_id):
                     make=make,
                     model=model,
                     year=year,
-                    customer_id=customer.id
+                
+    customer_id=customer.id
                 )
                 db.session.add(vehicle)
                 db.session.commit()
@@ -38,3 +39,4 @@ def new_vehicle(customer_id):
                 flash("Enter a valid vehicle year between 1950 and 2035.", "danger")
 
     return render_template("vehicle_form.html", customer=customer)
+update Addo Kingsley_925:Add repair testing module
