@@ -40,3 +40,4 @@ def new_vehicle(customer_id):
 
     return render_template("vehicle_form.html", customer=customer)
 update Addo Kingsley_925:Add repair testing module
+update Abdul Fatawu Qrwatu_926: Implement vehicle management
